@@ -9,12 +9,13 @@ Module Module1
         Dim objEmployee As Employee = New Employee(objsession)
         Dim objSite As Site = New Site(objsession)
         Dim objtambahan As tambahan = New tambahan(objsession)
-        objtambahan.testing1 = "TESTING123"
-        objtambahan.testing2 = "Testing456"
-        objtambahan.Save()
 
         Dim collectionEmployee As XPCollection = New XPCollection(objsession, GetType(Employee))
         Dim collectionSite As XPCollection = New XPCollection(objsession, GetType(Site))
+
+        objtambahan.testing1 = "TEST"
+        objtambahan.testing2 = "TESTTEST"
+        objtambahan.Save()
 
 
 
