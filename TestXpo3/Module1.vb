@@ -8,10 +8,11 @@ Module Module1
 
         Dim objEmployee As Employee = New Employee(objsession)
         Dim objSite As Site = New Site(objsession)
-
+        Dim objtambahan As tambahan = New tambahan(objsession)
 
         Dim collectionEmployee As XPCollection = New XPCollection(objsession, GetType(Employee))
         Dim collectionSite As XPCollection = New XPCollection(objsession, GetType(Site))
+
 
 
 
