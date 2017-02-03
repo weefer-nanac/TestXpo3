@@ -13,6 +13,9 @@ Module Module1
         Dim collectionEmployee As XPCollection = New XPCollection(objsession, GetType(Employee))
         Dim collectionSite As XPCollection = New XPCollection(objsession, GetType(Site))
 
+        objtambahan.testing1 = "TEST"
+        objtambahan.testing2 = "TESTTEST"
+        objtambahan.Save()
 
 
 
