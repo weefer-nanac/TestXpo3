@@ -99,6 +99,7 @@
     </Compile>
     <Compile Include="Site.vb" />
     <Compile Include="SiteEmployee.vb" />
+    <Compile Include="tambahan.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
